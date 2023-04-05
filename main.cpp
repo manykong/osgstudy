@@ -84,6 +84,8 @@ private:
 
 int main(int argc, char** argv)
 {
+    ::ShowWindow(::GetConsoleWindow(), SW_HIDE);
+
     osgViewer::Viewer viewer;
 
     osg::ref_ptr<osg::Node> model0 = osgDB::readNodeFile("cessna.osgt");
@@ -109,6 +111,7 @@ int main(int argc, char** argv)
 
     viewer.setUpViewInWindow(50, 50, 800, 600);
     viewer.realize();
+    viewer.getCamera()->setClearColor(osg::Vec4(0.62, 0.63, 0.64, 1.0));
 
 
     while (!viewer.done())
