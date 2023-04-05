@@ -111,7 +111,7 @@ int main(int argc, char** argv)
 
     viewer.setUpViewInWindow(50, 50, 800, 600);
     viewer.realize();
-    viewer.getCamera()->setClearColor(osg::Vec4(0.62, 0.63, 0.64, 1.0));
+    viewer.getCamera()->setClearColor(osg::Vec4(0.62, 0.62, 0.64, 1.0));
 
 
     while (!viewer.done())
