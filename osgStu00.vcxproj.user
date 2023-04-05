@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerEnvironment>PATH=D:\sdk_v141_x64\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\win64\vc14\bin;D:\sdk_v141_x64\OpenCASCADE-7.7.0-vc14-64\tbb_2021.5-vc14-64\bin;$(PATH)
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
